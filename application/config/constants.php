@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-define("BASEURL","http://localhost:8080/restaurant/index.php/");
+define("BASEURL","http://localhost/restaurant/index.php/");
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

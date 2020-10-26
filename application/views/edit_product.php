@@ -6,6 +6,12 @@
 <div>
 	<input type="text" placeholder="price" name="pprice" value="<?php echo $details->price;?>"/>
 </div>
+<div>
+	<input type="text" placeholder="type" name="type" value="<?php echo $details->type;?>"/>
+</div>
+<div>
+	<input type="text" placeholder="category" name="category" value="<?php echo $details->category;?>"/>
+</div>
 <input type="hidden" name="productid"  value="<?php echo $details->id;?>">
 <div>
 	<button type="submit">Update</button>

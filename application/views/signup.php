@@ -1,5 +1,5 @@
 <h1>Signup</h1>
-<form action="<?php echo BASEURL;?>index.php/Welcome/saveuser"  method="POST" >
+<form action="<?php echo BASEURL;?>Welcome/save_user"  method="POST" >
 <input placeholder="username" name="username" type="text"/>
 <input placeholder="password" name="pwd" type="password" />
 <input placeholder="designation" name="user_type" type="text" />

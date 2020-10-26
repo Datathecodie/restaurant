@@ -28,8 +28,17 @@
 			$this->db->insert("products",$data);
 		}
 		
+		public function add_category($cat){
+			$this->db->insert("category",$cat);
+		}
+		
 		public function get_products(){
 			$sql = $this->db->get("products");
+			return $sql->result();
+		}
+		
+		public function get_cat(){
+			$sql = $this->db->get("category");
 			return $sql->result();
 		}
 		
@@ -48,4 +57,9 @@
 			$res = $this->db->query("delete from products where id='$product_id'");
 			return true;
 		}
+		
+		public function add_tables($data){
+			$this->db->insert('_table',$data);
+		}
+		
 	}
